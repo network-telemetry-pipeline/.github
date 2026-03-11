@@ -10,10 +10,10 @@ A scalable real-time data platform for ingesting, processing, and analyzing rout
 
 | Repository | Description |
 |------------|-------------|
-| [infrastructure](../infra/) | Terraform (GCP VMs) + Ansible (Kubernetes cluster bootstrap, 17 roles) |
-| [data-pipeline](../data-pipeline/) | Spark Structured Streaming jobs + ArgoCD GitOps manifests |
-| [data-producer](../data-producer/) | Python Kafka producer replaying 288k rows of synthetic router metrics |
-| [telemetry-dashboard](../telemetry-dashboard/) | FastAPI backend + Chart.js single-page dashboard |
+| [infrastructure](https://github.com/network-telemetry-pipeline/infra) | Terraform (GCP VMs) + Ansible (Kubernetes cluster bootstrap, 17 roles) |
+| [data-pipeline](https://github.com/network-telemetry-pipeline/data-pipeline) | Spark Structured Streaming jobs + ArgoCD GitOps manifests |
+| [data-producer](https://github.com/network-telemetry-pipeline/data-producer) | Python Kafka producer replaying 288k rows of synthetic router metrics |
+| [telemetry-dashboard](https://github.com/network-telemetry-pipeline/telemetry-dashboard) | FastAPI backend + Chart.js single-page dashboard |
 
 ## Data Flow
 
