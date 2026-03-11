@@ -4,7 +4,7 @@ A scalable real-time data platform for ingesting, processing, and analyzing rout
 
 ## Architecture
 
-![Architecture](assets/architecture.png)
+![Architecture](../assets/architecture.png)
 
 ## Repositories
 
